@@ -1,20 +1,20 @@
 export default {
   top: [
     {
+      text: 'Home',
+      url: '/'
+    },
+    {
       text: 'About',
       url: '/about/'
     },
     {
-      text: 'Docs',
-      url: '/get-started/'
+      text: 'Archive',
+      url: '/archive/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
-      text: 'Blog',
-      url: '/blog/'
+      text: 'Contact',
+      url: '/contact/'
     }
   ],
   bottom: [
@@ -23,12 +23,12 @@ export default {
       url: '/styleguide/'
     },
     {
-      text: 'Imprint',
-      url: '/imprint/'
+      text: 'Docs',
+      url: '/get-started/'
     },
     {
-      text: 'Privacy',
-      url: '/privacy/'
+      text: 'Built with',
+      url: '/built-with/'
     }
   ]
 };

@@ -1,20 +1,20 @@
 ---
 layout: base
-title: Blog
+title: Archive
 description: 'All blog posts can be found here'
 pagination:
   data: collections.allPosts
   size: 6
-permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
+permalink: 'archive/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
 <article class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-secondary)">
+  <header class="full | section" style="--spot-color: var(--color-primary)">
     <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
       <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
 
-    {% svg "divider/edgy", null, "seperator" %}
+    {% svg "divider/custom", null, "seperator" %}
   </header>
 
   <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
